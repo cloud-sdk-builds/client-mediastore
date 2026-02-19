@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mediastore`](https://www.npmjs.com/package/@aws-sdk/client-mediastore/v/3.342.0).
+[`@aws-sdk/client-mediastore`](https://www.npmjs.com/package/@aws-sdk/client-mediastore/v/3.344.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.342.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.344.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-p2AOR5nbrsU611Jwq3h+Cub1BPsC2I781Q1r7L9QFGpDOo3koD7rQcBkE7mYpzaY
+sha384-0H0GBuGzgysX+uaQpuTV6+GA55U+5zuLF8UrH92T7wliU4P9iCZ35ve7W77cYv1I
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mediastore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.342.0/index.min.mjs"
+            "@aws-sdk/client-mediastore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.344.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.342.0/index.min.mjs": "sha384-p2AOR5nbrsU611Jwq3h+Cub1BPsC2I781Q1r7L9QFGpDOo3koD7rQcBkE7mYpzaY"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.344.0/index.min.mjs": "sha384-0H0GBuGzgysX+uaQpuTV6+GA55U+5zuLF8UrH92T7wliU4P9iCZ35ve7W77cYv1I"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mediastore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.342.0/index.min.mjs"
+                        "@aws-sdk/client-mediastore": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.344.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.342.0/index.min.mjs": "sha384-p2AOR5nbrsU611Jwq3h+Cub1BPsC2I781Q1r7L9QFGpDOo3koD7rQcBkE7mYpzaY"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mediastore@3.344.0/index.min.mjs": "sha384-0H0GBuGzgysX+uaQpuTV6+GA55U+5zuLF8UrH92T7wliU4P9iCZ35ve7W77cYv1I"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.342.0`)
+* Always pin to a specific version (`@3.344.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mediastore/blob/refs/tags/3.342.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mediastore/blob/refs/tags/3.344.0/LICENSE
 ```
 
 ---
